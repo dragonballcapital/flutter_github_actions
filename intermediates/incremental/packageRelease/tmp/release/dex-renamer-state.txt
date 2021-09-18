@@ -1,0 +1,4 @@
+#Sat Sep 18 12:17:22 UTC 2021
+base.0=/home/runner/work/flutter_github_actions/flutter_github_actions/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
