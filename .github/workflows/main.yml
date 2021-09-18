@@ -21,8 +21,8 @@ jobs:
         with:
           token: '${{ secrets.GITHUB_TOKEN }}'
           branch: apk-releases
-          folder: build/app
-      - run: flutter build web
+          folder: build/app/outputs/apk/release
+      - run: flutter build web --base-href="/flutter_github_actions/"
       - uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
           token: '${{ secrets.GITHUB_TOKEN }}'
