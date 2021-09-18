@@ -17,13 +17,13 @@ jobs:
       - run: flutter pub get
       - run: flutter test
       - run: flutter build apk --obfuscate --split-per-abi
-      - uses: JamesIves/github-pages-deploy-action@4
+      - uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
          token: '${{ secrets.GITHUB_TOKEN }}'
          branch: apk-releases
          folder: build/app
       - run: flutter build web
-      - uses: JamesIves/github-pages-deploy-action@4
+      - uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
           token: '${{ secrets.GITHUB_TOKEN }}'
           branch: gh-pages
