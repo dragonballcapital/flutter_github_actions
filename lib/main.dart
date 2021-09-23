@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.teal,
       ),
-      home: const MyHomePage(title: 'Flutter & Github Actions Demo'),
+      home: const MyHomePage(title: 'Hello, This is Test'),
     );
   }
 }
